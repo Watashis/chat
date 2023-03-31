@@ -1,0 +1,5 @@
+.frame{
+    flex-grow: 3;
+    background: #000000c9;
+    overflow: auto;
+}

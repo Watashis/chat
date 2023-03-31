@@ -1,0 +1,43 @@
+.messageBlock {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
+.message {
+    background-color: #807bffa8;
+    border-radius: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 3rem;
+    padding: 1px 10px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3px;
+}
+
+.text>p {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.date {
+    padding: 0;
+    font-size: 11px;
+    text-align: end;
+}
+
+.forMe {
+    justify-content: flex-start;
+}
+
+.user {
+    text-align: start;
+    font-weight: bold;
+}
